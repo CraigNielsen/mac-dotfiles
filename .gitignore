@@ -12,3 +12,12 @@
 !/yabai/yabairc
 /vim/*
 !/vim/vimrc
+
+!/prezto/
+/prezto/*
+!/prezto/.zpreztorc
+!/prezto/.zshrc
+!/prezto/.zshenv
+!/prezto/.zprofile
+!/prezto/.zlogin
+!/prezto/.zlogout

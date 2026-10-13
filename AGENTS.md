@@ -1,6 +1,6 @@
 # Public dotfiles
 
-This repository contains reviewed skhd, yabai and Vim configuration only.
+This repository contains reviewed skhd, yabai, Vim and Prezto/Zsh configuration only.
 Keep README.md current when changing configuration or setup instructions.
 Never add credentials, private endpoints, logs, caches, editor history, plugin
 installations or unrelated home-directory files. Review every staged diff before

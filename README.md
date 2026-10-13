@@ -1,6 +1,6 @@
 # Dotfiles
 
-Craig's macOS configuration for skhd, yabai and Vim.
+Craig's macOS configuration for skhd, yabai, Vim and Prezto/Zsh.
 
 | Repository file | Active location |
 | --- | --- |
@@ -44,3 +44,22 @@ terminates iTerm2 (`alt + shift + return`), and assumes a multi-display setup.
 Only reviewed files are allowed by .gitignore. Keep local secrets, caches,
 plugin installations and editor state outside this repository. Inspect
 `git diff` and `git diff --cached` before committing or pushing.
+
+## Prezto and Zsh
+
+`prezto/` contains the live Mac startup configuration captured on 2026-10-13:
+`.zpreztorc`, `.zshrc`, `.zshenv`, `.zprofile`, `.zlogin`, and `.zlogout`.
+These files map to the same names in your home directory (or your configured
+ZDOTDIR). Install Prezto separately in `~/.zprezto` before using them.
+Back up existing files before copying or linking each of these six files.
+No changes were made to the original live configuration.
+
+The public snapshot omits SSH endpoints, deployment aliases and a cloud project
+ID. Absolute user-home paths have been replaced with `$HOME`. Put personal
+connection/deployment aliases in `~/.zpreztorc.local`; the public `.zpreztorc`
+sources it when present. Never add that local file to this repository.
+
+The configuration uses the smiley prompt, syntax highlighting, history substring
+search and custom aliases. It expects macOS/Homebrew, pyenv, kubectl and several
+project-specific scripts to exist; review those dependencies on a new machine.
+The Prezto framework itself, shell history and installed modules are not included.
