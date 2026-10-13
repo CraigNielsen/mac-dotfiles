@@ -1,0 +1,14 @@
+# Only explicitly reviewed files belong in this public repository.
+/*
+!/.gitignore
+!/README.md
+!/AGENTS.md
+!/skhd/
+!/yabai/
+!/vim/
+/skhd/*
+!/skhd/skhdrc
+/yabai/*
+!/yabai/yabairc
+/vim/*
+!/vim/vimrc
